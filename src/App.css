@@ -1,7 +1,0 @@
-.quote::before {
-    content: "\201C ";
-}
-
-.quote::after {
-    content: " \201D";
-}
