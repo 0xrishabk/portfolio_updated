@@ -6,7 +6,7 @@ function Home() {
   const navItems: Record<string, string> = {
     Home: "/",
     Projects: "/projects",
-    Resume: "/assets/resume.pdf"
+    Resume: "/resume.pdf"
   };
   return (
     <div className="home-container">
@@ -23,28 +23,28 @@ function Home() {
               passonate about creating what ever piques my interest. From writing "Hello World" to writing complex application I enjoy doing everything.
               <br/>
               <br/>
+
               <strong style={{ fontStyle: "oblique" }}>My purpose you ask?</strong>
               <br/>
 
-
               <strong className="home-card-content-answer quote">I love solving problems & learning about different technology, programming languages and concepts related to programming itself.</strong>
-              <br/><br/>
-              
+              <br/><br/>  
 
               I enjoy experimenting accross web development, backend systems, AI, cybersecurity, DevOps, Linux, Web Servers, learning by building real projects.
               I thrive on solving problems, trying out new tools and expanding my skills. Outside of coding, I'm always exploring new concepts and ways to write better code.
               <br/><br/>
               
 
-              The language that I can write code in are:
-              <ul>
+              The language that I can write code in are: 
+            </p>
+            
+            <ul>
                 <li>Go Language</li>
                 <li>Typescript</li>
                 <li>Rust</li>
                 <li>Java</li>
                 <li>Python</li>
-              </ul> 
-            </p>
+            </ul>
           </div>
         </Card>
       </div>
