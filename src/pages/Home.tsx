@@ -21,19 +21,25 @@ function Home() {
             <h1>About Me</h1>
             <p>
               I'm <span className="home-card-content-name">Rishab Karki</span>, a software developer and an undergraduate Computer Science student
-              passonate about creating what ever piques my interest. From writing "Hello World" to writing complex application I enjoy doing everything.
+              passionate about creating whatever piques my interest, from writing "Hello World" to writing complex application I enjoy doing everything.
               <br/>
               <br/>
 
-              <strong style={{ fontStyle: "oblique" }}>My purpose you ask?</strong>
+              <strong style={{ fontStyle: "oblique" }}>
+                My purpose you ask?
+              </strong>
               <br/>
 
-              <strong className="home-card-content-answer quote">I love solving problems & learning about different technology, programming languages and concepts related to programming itself.</strong>
-              <br/><br/>  
+              <strong className="home-card-content-answer quote">
+                I love solving problems & learning about different technology, programming languages and concepts.
+              </strong>
+              <br/>
+              <br/>  
 
               I enjoy experimenting accross web development, backend systems, AI, cybersecurity, DevOps, Linux, Web Servers, learning by building real projects.
               I thrive on solving problems, trying out new tools and expanding my skills. Outside of coding, I'm always exploring new concepts and ways to write better code.
-              <br/><br/>
+              <br/>
+              <br/>
               
 
               The language that I can write code in are: 
