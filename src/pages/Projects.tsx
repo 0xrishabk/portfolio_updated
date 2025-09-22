@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 
 function Projects() {
@@ -6,6 +7,11 @@ function Projects() {
     Projects: "/projects",
     Resume: "/resume.pdf"
   };
+
+  useEffect(() => {
+    document.title = "Rishab Karki - Projects";
+  });
+
   return (
     <div className="projects-container" style={{ paddingTop: "80px" }}>
       <Navbar navItems={navItems}>

@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import Card from "../components/Card";
 import Navbar from "../components/Navbar";
 import "./Home.css";
@@ -8,6 +9,11 @@ function Home() {
     Projects: "/projects",
     Resume: "/resume.pdf"
   };
+
+  useEffect(() => {
+    document.title = "Rishab Karki - Home";
+  });
+
   return (
     <div className="home-container">
       <div>
