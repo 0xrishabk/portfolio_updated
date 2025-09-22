@@ -8,12 +8,8 @@
     height: 60px;
     padding-top: 9px;
     padding-bottom: 3px;
-    transition: transform 0.5s;
 }
 
-.navbar:hover {
-    transform: translateY(-8px);
-}
 .navbar-logo a {
     text-decoration: none;
     color: antiquewhite;
@@ -21,8 +17,8 @@
 
 .navbar-logo a:hover {
     color: rgb(194, 255, 255);
-    transition: font-size 0.5s;
-    font-size: 105%;
+    transition: font-size 0.3s;
+    font-size: 102%;
 }
 
 .navbar-container {
