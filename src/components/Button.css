@@ -1,3 +1,7 @@
+.button-container {
+    padding-top: 5px;
+}
+
 .baseStyle {
     font-family: 'Special Elite', monospace;
     font-size: 16px;

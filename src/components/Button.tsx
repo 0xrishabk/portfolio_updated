@@ -15,13 +15,15 @@ function Button({
   type = "button",
 }: ButtonProps) {
   return (
-    <button
-      type={type}
-      onClick={onClick}
-      className={`${variant} baseStyle`}
-    >
-      {children}
-    </button> 
+    <div className="button-container">
+      <button
+        type={type}
+        onClick={onClick}
+        className={`${variant} baseStyle`}
+      >
+        {children}
+      </button> 
+    </div>
   )
 }
 
