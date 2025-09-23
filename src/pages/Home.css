@@ -25,9 +25,9 @@ h1 {
 }
 
 .quote::before {
-    content: "\201C ";
+    content: "\201C";
 }
 
 .quote::after {
-    content: " \201D";
+    content: "\201D";
 }

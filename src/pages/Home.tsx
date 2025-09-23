@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import Card from "../components/Card";
 import Navbar from "../components/Navbar";
 import "./Home.css";
+import Contact from "../components/Contact";
+import Button from "../components/Button";
 
 function Home() {
   const navItems: Record<string, string> = {
@@ -58,6 +60,19 @@ function Home() {
                 <li>Java</li>
                 <li>Python</li>
             </ul>
+            <p>
+              <strong className="quote" style={{ fontSize: "15px" }}>Wanna have conversation?</strong>
+              <br/>
+              
+              <Button onClick={() => { window.open('mailto:rishabkarki78@gmail.com', "_blank") }}>
+                Contact Me
+              </Button>
+              <br/>
+              <br/>
+
+
+              Socials: <Contact/>
+            </p>
           </div>
         </Card>
       </div>
