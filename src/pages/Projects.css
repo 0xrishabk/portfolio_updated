@@ -1,0 +1,14 @@
+.project-card-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.project-card-container a {
+    text-decoration: none;
+    color: #473131;
+}
+
+.project-card-container a:hover {
+    color: #acb6e1;
+}

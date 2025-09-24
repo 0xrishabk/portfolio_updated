@@ -35,4 +35,18 @@ function Navbar({ children, navItems }: NavbarProps) {
   );
 }
 
+function DefaultNav() {
+  const navItems: Record<string, string> = {
+    Home: "/",
+    Projects: "/projects",
+    Resume: "/resume.pdf"
+  };
+  
+  return (
+    <Navbar navItems={navItems}>
+      <a href="https://github.com/0xrishabk">0xrishabk</a>
+    </Navbar>
+  )
+}
+export { DefaultNav }
 export default Navbar;
