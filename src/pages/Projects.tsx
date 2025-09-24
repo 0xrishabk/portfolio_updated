@@ -67,7 +67,7 @@ function Projects() {
       <DefaultNav/>
       <div className="project-card-container" style={{ paddingTop: "80px" }}>
         <Card>
-          <h2>Projects:</h2>
+          <h2>Projects</h2>
           <ul>
             {repos.map((repo) => (
               <li key={repo.url} style={{ marginBottom: "12px" }}>

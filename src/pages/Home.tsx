@@ -26,7 +26,7 @@ function Home() {
       <div className="home-card-container" style={{ paddingTop: "80px" }}>
         <Card>
           <div className="home-card-content">
-            <h1>About Me</h1>
+            <h2>About Me</h2>
             <p>
               I'm <span className="home-card-content-name">Rishab Karki</span>, a software developer and an undergraduate Computer Science student
               passionate about creating whatever piques my interest, from writing "Hello World" to writing complex application I enjoy doing everything.
