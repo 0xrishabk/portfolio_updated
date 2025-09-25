@@ -14,7 +14,7 @@ function Home() {
 
   useEffect(() => {
     document.title = "Rishab Karki - Home";
-  });
+  }, []);
 
   return (
     <div className="home-container">
